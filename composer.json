@@ -1,0 +1,22 @@
+{
+    "name": "NoControllerTutorial",
+    "description": "Tutorial",
+    "keywords": ["php", "Tutorial"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damith",
+            "email": "damithhathurusinghe@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "NoControllerTutorial\\": "src/"
+        }
+    }
+}
